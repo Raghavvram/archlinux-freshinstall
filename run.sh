@@ -22,7 +22,7 @@ cd ..
 git clone https://github.com/vinceliuice/Colloid-gtk-theme.git
 cd Colloid-gtk-theme
 ./install.sh -c dark --tweaks black
-
+cd ..
 
 git clone https://github.com/vinceliuice/Colloid-icon-theme.git
 cd Colloid-icon-theme
