@@ -25,3 +25,5 @@ cd ..
 
 # Rust Tools
 paru -S exa yazi fzf ripgrep
+
+# Optional
