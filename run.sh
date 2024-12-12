@@ -20,6 +20,7 @@ cd ..
 
 # Installing Colloid-gtk Theme and Icons
 git clone https://github.com/vinceliuice/Colloid-gtk-theme.git
+cd Colloid-gtk-theme
 
 
 git clone https://github.com/vinceliuice/Colloid-icon-theme.git
