@@ -21,6 +21,7 @@ cd ..
 # Installing Colloid-gtk Theme and Icons
 git clone https://github.com/vinceliuice/Colloid-gtk-theme.git
 cd Colloid-gtk-theme
+./install.sh -c dark --tweaks black
 
 
 git clone https://github.com/vinceliuice/Colloid-icon-theme.git
