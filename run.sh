@@ -10,3 +10,4 @@ sudo pacman -S archlinux-keyring --noconfirm
 sudo pacman -Syyy
 
 # Install essential packages
+sudo pacman -S micro neovim htop neofetch git wget curl net-tools base-devel xfce4-terminal otf-codenewroman-nerd --needed --noconfirm
