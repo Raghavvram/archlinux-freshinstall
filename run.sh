@@ -8,3 +8,5 @@ sudo pacman-key --init
 sudo pacman-key --populate
 sudo pacman -S archlinux-keyring --noconfirm
 sudo pacman -Syyy
+
+# Install essential packages
