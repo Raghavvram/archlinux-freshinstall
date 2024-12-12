@@ -15,3 +15,4 @@ sudo pacman -S micro neovim htop neofetch git wget curl net-tools base-devel xfc
 # Installing paru-bin
 git clone https://aur.archlinux.org/paru-bin.git
 cd paru-bin
+makepkg -si
