@@ -18,6 +18,8 @@ cd paru-bin
 makepkg -si
 cd ..
 
+# Installing Colloid-gtk Theme and Icons
+
 git clone https://github.com/vinceliuice/Colloid-icon-theme.git
 cd Colloid-icon-theme
 ./install.sh
