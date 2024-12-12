@@ -19,3 +19,4 @@ makepkg -si
 cd ..
 
 git clone https://github.com/vinceliuice/Colloid-icon-theme.git
+cd Colloid-icon-theme
