@@ -23,4 +23,5 @@ cd Colloid-icon-theme
 ./install.sh
 cd ..
 
-# rust Tools
+# Rust Tools
+paru -S exa yazi fzf ripgrep
