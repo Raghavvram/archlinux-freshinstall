@@ -27,3 +27,4 @@ cd ..
 paru -S exa yazi fzf ripgrep
 
 # Optional
+# paru -S jdk-openjdk code gcc ttf-jetbrains-mono-nerd --noconfirm
