@@ -6,7 +6,7 @@ sudo pacman -Scc --noconfirm
 # Initialize and populate the keyring
 sudo pacman-key --init
 sudo pacman-key --populate
-sudo pacman -S archlinux-keyring --noconfirm
+
 
 
 # Install essential packages
