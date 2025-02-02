@@ -6,6 +6,8 @@ sudo pacman -Scc --noconfirm
 # Initialize the pacman keyring.
 sudo pacman-key --init
 # Populate the pacman keyring with the default set of keys.
+sudo pacman-key --populate
+
 
 # Install essential packages
 sudo pacman -S micro neovim htop neofetch git wget curl net-tools base-devel xfce4-terminal otf-codenewroman-nerd --needed --noconfirm
