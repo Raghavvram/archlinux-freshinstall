@@ -37,7 +37,7 @@ cd Colloid-icon-theme
 cd ..
 
 # Rust Tools
-paru -S exa yazi fzf ripgrep lsd zoxide
+paru -S exa yazi fzf ripgrep lsd zoxide nushell 
 
 # Optional
 # paru -S jdk-openjdk code gcc ttf-jetbrains-mono-nerd --noconfirm
