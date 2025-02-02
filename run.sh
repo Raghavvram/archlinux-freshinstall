@@ -4,7 +4,6 @@
 sudo pacman -Scc --noconfirm
 
 # Initialize the pacman keyring.
-# Initialize the pacman keyring.
 sudo pacman-key --init
 
 # Install essential packages
