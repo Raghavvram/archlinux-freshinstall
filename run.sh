@@ -10,7 +10,7 @@ sudo pacman-key --populate
 # Install the Arch Linux keyring package without asking for confirmation.
 sudo pacman -S archlinux-keyring --noconfirm
 # Refresh all package databases.
-
+sudo pacman -Syyy
 
 # Install essential packages
 sudo pacman -S micro neovim htop neofetch git wget curl net-tools base-devel xfce4-terminal otf-codenewroman-nerd --needed --noconfirm
