@@ -17,7 +17,7 @@ sudo pacman -Syyy
 
 
 # Install essential packages
-sudo pacman -S micro neovim htop neofetch git wget curl net-tools base-devel xfce4-terminal otf-codenewroman-nerd --needed --noconfirm
+sudo pacman -S neovim htop neofetch git wget curl net-tools base-devel xfce4-terminal otf-codenewroman-nerd --needed --noconfirm
 
 # Installing paru-bin
 git clone https://aur.archlinux.org/paru-bin.git
