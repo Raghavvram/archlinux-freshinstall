@@ -34,4 +34,4 @@ Once done, you can launch Virt-Manager using the command:
 virt-manager
 ```
 
-This setup will allow you to manage virtual machines on Arch Linux. Let me know if you encounter any issues!
+This setup will allow you to manage virtual machines on Arch Linux.
