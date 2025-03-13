@@ -16,14 +16,7 @@ Got it! Here are the steps to mount your Btrfs drive and chroot into your Arch s
    mount /dev/sda2 /mnt/boot
    ```
 
-6. **Mount other necessary filesystems**:
-   ```bash
-   mount -t proc /proc /mnt/proc
-   mount --rbind /sys /mnt/sys
-   mount --rbind /dev /mnt/dev
-   ```
 
-7. **Chroot into the system**:
    ```bash
    arch-chroot /mnt
    ```
