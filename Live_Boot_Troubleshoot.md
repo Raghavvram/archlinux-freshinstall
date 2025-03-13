@@ -4,18 +4,7 @@ Got it! Here are the steps to mount your Btrfs drive and chroot into your Arch s
 
    ```
 
-8. **Update the system**:
-   ```bash
-   pacman -Syu
-   ```
-
-9. **Exit the chroot environment**:
-   ```bash
-   exit
-   ```
-
-10. **Unmount the filesystems**:
-    ```bash
+8. **Update t
     umount -R /mnt
     ```
 
