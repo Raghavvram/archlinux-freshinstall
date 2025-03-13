@@ -7,10 +7,3 @@ Got it! Here are the steps to mount your Btrfs drive and chroot into your Arch s
 8. **Update t
     umount -R /mnt
     ```
-
-11. **Reboot the system**:
-    ```bash
-    reboot
-    ```
-
-That should do it! If you run into any issues or need further assistance, feel free to ask.
