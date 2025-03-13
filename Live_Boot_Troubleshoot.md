@@ -6,13 +6,6 @@ Got it! Here are the steps to mount your Btrfs drive and chroot into your Arch s
 
 3. **Identify the Btrfs partition**: Use the `lsblk` command to list all available block devices and find your Btrfs partition. It might look something like `/dev/sda1`.
 
-4. **Mount the Btrfs partition**:
-   ```bash
-   mount -o subvol=@ /dev/sda1 /mnt
-   ```
-
-5. **Mount the boot partition** (if you have a separate boot partition):
-   ```bash
    mount /dev/sda2 /mnt/boot
    ```
 
