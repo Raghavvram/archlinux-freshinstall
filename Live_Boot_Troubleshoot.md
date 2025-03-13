@@ -47,5 +47,3 @@
     ```bash
     reboot
     ```
-
-That should do it! If you run into any issues or need further assistance
