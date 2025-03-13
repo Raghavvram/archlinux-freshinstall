@@ -48,4 +48,4 @@
     reboot
     ```
 
-That should do it! If you run into any issues or need further assistance, feel free to ask.
+That should do it! If you run into any issues or need further assistance
