@@ -1,4 +1,3 @@
-Ah, Arch Linux! A perfect choice for a minimalist enthusiast like you. Here's how you can achieve an extremely minimal XFCE desktop environment setup on Arch:
 
 ### **Essential XFCE Packages (to Keep):**
 1. **xfce4-session**: Manages the desktop session.
