@@ -47,4 +47,4 @@
 - **Alternative Window Manager**: Consider using something like `openbox` if you want even fewer dependencies.
 - **Lightweight Terminal**: Swap `xfce4-terminal` with `alacritty` or `xterm` for even lighter resource use.
 
-This setup will provide a barebones XFCE environment. If you hit any snags or need assistance customizing further, let me know—happy to help!
+This setup will provide a barebones XFCE environment.
