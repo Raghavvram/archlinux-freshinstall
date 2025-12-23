@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Exit immediately if a command exits with a non-zero status.
+set -e
+
 # Run BleachBit cleanup for each specified item
 sudo bleachbit --clean bash.history \
     deepscan.backup \
@@ -38,4 +41,3 @@ sudo bleachbit --clean bash.history \
     x11.debug_logs
 
 echo "Cleanup completed successfully!"
-

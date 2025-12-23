@@ -1,11 +1,16 @@
 #!/bin/bash
 
+# Exit immediately if a command exits with a non-zero status.
+set -e
+
+# Update the system using paru
 echo "Updating system..."
 if ! paru -Syu; then
     echo "System update failed. Please check your internet connection or package manager configuration."
     exit 1
 fi
 
+# Clear the pacman cache
 echo "Clearing pacman cache..."
 pacman_cache_space_used="$(du -sh /var/cache/pacman/pkg/ 2>/dev/null | cut -f1)"
 if sudo paccache -r; then
@@ -14,6 +19,7 @@ else
     echo "Failed to clear pacman cache. Check permissions or pacman configuration."
 fi
 
+# Remove orphan packages
 echo "Removing orphan packages..."
 orphans=$(paru -Qdtq)
 if [ -n "$orphans" ]; then
@@ -26,14 +32,16 @@ else
     echo "No orphan packages found."
 fi
 
+# Clear the user's cache directory
 echo "Clearing ~/.cache directory..."
 home_cache_used="$(du -sh ~/.cache 2>/dev/null | cut -f1)"
-if rm -rf ~/.cache/; then
+if rm -rf ~/.cache/*; then
     echo "Home cache cleared. Space saved: $home_cache_used"
 else
     echo "Failed to clear ~/.cache directory. Check permissions or file locks."
 fi
 
+# Clear system logs older than 7 days
 echo "Clearing system logs older than 7 days..."
 if sudo journalctl --vacuum-time=7d; then
     echo "System logs older than 7 days have been cleared."
