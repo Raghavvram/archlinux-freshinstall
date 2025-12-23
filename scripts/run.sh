@@ -20,7 +20,7 @@ sudo pacman -Syyy
 
 
 # Install essential packages
-sudo pacman -S neovim htop neofetch git wget curl net-tools base-devel otf-codenewroman-nerd --needed --noconfirm
+sudo pacman -S neovim htop git wget curl net-tools base-devel otf-codenewroman-nerd --needed --noconfirm
 
 # Installing paru-bin
 git clone https://aur.archlinux.org/paru-bin.git
@@ -40,7 +40,7 @@ cd Colloid-icon-theme
 cd ..
 
 # Rust Tools
-paru -S exa yazi fzf ripgrep lsd zoxide nushell 
+paru -S exa yazi fzf ripgrep lsd zoxide nushell fastfetch
 
 # Optional
 # paru -S jdk-openjdk code gcc ttf-jetbrains-mono-nerd --noconfirm
